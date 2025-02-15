@@ -295,10 +295,10 @@ impl Level {
             polygons: vec![Polygon {
                 grass: false,
                 vertices: vec![
-                    Position::new(10., 0.),
-                    Position::new(10., 7.),
-                    Position::new(0., 7.),
                     Position::new(0., 0.),
+                    Position::new(0., 7.),
+                    Position::new(15., 7.),
+                    Position::new(15., 0.),
                 ],
             }],
             objects: vec![
